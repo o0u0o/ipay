@@ -3,12 +3,12 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>cn.springboot</groupId>
-    <artifactId>best-pay-sdk</artifactId>
-    <version>1.3.4-SNAPSHOT</version>
+    <groupId>com.o0u0o</groupId>
+    <artifactId>ipay-sdk</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>best-pay-sdk</name>
-    <description>最好的支付sdk</description>
+    <name>ipay-sdk</name>
+    <description>支付sdk</description>
     <url>https://github.com/Pay-Group/best-pay-sdk</url>
 
     <licenses>
@@ -20,16 +20,16 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/Pay-Group/best-pay-sdk</url>
-        <connection>git@github.com:Pay-Group/best-pay-sdk.git</connection>
-        <developerConnection>https://github.com/Pay-Group/best-pay-sdk</developerConnection>
+        <url>https://github.com/o0u0o/ipay</url>
+        <connection>git@github.com:/o0u0o/ipay.git</connection>
+        <developerConnection>https://github.com/o0u0o/ipay</developerConnection>
     </scm>
 
     <developers>
         <developer>
             <name>o0u0o</name>
             <email>jobs@techgeng.com</email>
-            <url>https://github.com/Pay-Group/best-pay-sdk</url>
+            <url>https://github.com/o0u0o/ipay</url>
         </developer>
     </developers>
 
