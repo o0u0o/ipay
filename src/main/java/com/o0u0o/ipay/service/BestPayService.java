@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
- * 支付相关
+ * 支付相关接口
  * Created by null on 2017/2/14.
  */
 public interface BestPayService {

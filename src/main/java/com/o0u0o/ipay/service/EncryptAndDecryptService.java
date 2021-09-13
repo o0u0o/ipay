@@ -1,7 +1,7 @@
 package com.o0u0o.ipay.service;
 
 /**
- * 加解密
+ * 加解密接口
  * Created by 廖师兄
  * 2018-05-30 16:15
  */

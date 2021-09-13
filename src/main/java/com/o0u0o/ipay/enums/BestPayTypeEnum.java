@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.enums;
 
-import com.o0u0o.ipay.exception.BestPayException;
+import com.o0u0o.ipay.exception.IPayException;
 
 import static com.o0u0o.ipay.enums.BestPayPlatformEnum.*;
 
@@ -70,6 +70,6 @@ public enum BestPayTypeEnum {
                 return bestPayTypeEnum;
             }
         }
-        throw new BestPayException(BestPayResultEnum.PAY_TYPE_ERROR);
+        throw new IPayException(BestPayResultEnum.PAY_TYPE_ERROR);
     }
 }

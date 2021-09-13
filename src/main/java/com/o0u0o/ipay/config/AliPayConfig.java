@@ -5,7 +5,9 @@ import lombok.Data;
 import java.util.Objects;
 
 /**
- * Created by this on 2019/9/8 16:31
+ * 支付宝支付配置类
+ * @author o0u0o
+ * @date 2021/9/13 4:19 下午
  */
 @Data
 public class AliPayConfig extends PayConfig {
