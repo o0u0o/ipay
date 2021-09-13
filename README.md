@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <a href="https://github.com/o0u0o/ipay">
-  <img src="https://github.com/o0u0o/ipay/blob/main/doc/logo/ipay.jpeg" width="250"/></a>
+  <img src="https://github.com/o0u0o/ipay/blob/main/doc/logo/ipay.jpg" width="250"/></a>
   <br>
   IPAY
 </h1>
