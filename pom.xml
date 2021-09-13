@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
     <name>ipay-sdk</name>
     <description>支付sdk</description>
-    <url>https://github.com/Pay-Group/best-pay-sdk</url>
+    <url>https://github.com/o0u0o/ipay</url>
 
     <licenses>
         <license>
