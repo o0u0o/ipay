@@ -1,7 +1,7 @@
 
 <h1 align="center">
-  <a href="http://personal.oasismoney.cn/">
-  <img src="https://github.com/o0u0o/ipay/blob/main/doc/logo/ipay.jpg" width="250"/></a>
+  <a href="https://github.com/o0u0o/ipay">
+  <img src="https://github.com/o0u0o/ipay/blob/main/doc/logo/ipay.jpeg" width="250"/></a>
   <br>
   IPAY
 </h1>
@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/mybatis-3.5.0-yellow" alt="mybatis" data-canonical-src="https://img.shields.io/badge/mybatis-3.5.0-yellow" style="max-width:100%;">
   </a>
 
-  <a href="https://www.lvzhoubao.cn/" rel="nofollow">
+  <a href="https://github.com/o0u0o/ipay" rel="nofollow">
   <img src="https://img.shields.io/badge/copyright-o0u0o-lightgrey.svg" alt="copyright" data-canonical-src="https://img.shields.io/badge/copyright-共创绿洲(贵州)医疗系统技术有限公司-lightgrey.svg" style="max-width:100%;">
   </a>
 
