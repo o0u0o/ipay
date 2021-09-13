@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.model;
 
-import com.o0u0o.ipay.enums.OrderStatusEnum;
+import com.o0u0o.ipay.common.enums.OrderStatusEnum;
 import lombok.Builder;
 import lombok.Data;
 

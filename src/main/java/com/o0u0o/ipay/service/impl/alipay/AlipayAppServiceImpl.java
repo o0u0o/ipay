@@ -4,8 +4,8 @@ import com.o0u0o.ipay.constants.AliPayConstants;
 import com.o0u0o.ipay.model.PayRequest;
 import com.o0u0o.ipay.model.PayResponse;
 import com.o0u0o.ipay.model.alipay.request.AliPayTradeCreateRequest;
-import com.o0u0o.ipay.utils.JsonUtil;
-import com.o0u0o.ipay.utils.MapUtil;
+import com.o0u0o.ipay.common.utils.JsonUtil;
+import com.o0u0o.ipay.common.utils.MapUtil;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.LocalDateTime;

@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2012 All Rights Reserved.
  */
-package com.o0u0o.ipay.utils;
+package com.o0u0o.ipay.common.utils;
 
 import java.io.*;
 

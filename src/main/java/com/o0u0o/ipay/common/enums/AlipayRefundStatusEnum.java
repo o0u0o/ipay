@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.enums;
+package com.o0u0o.ipay.common.enums;
 
 /**
  * 支付宝退款状态

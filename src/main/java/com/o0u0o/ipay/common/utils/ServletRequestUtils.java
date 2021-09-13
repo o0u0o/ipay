@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.utils;
+package com.o0u0o.ipay.common.utils;
 
 import javax.servlet.ServletRequest;
 import java.util.Enumeration;

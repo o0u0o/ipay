@@ -4,7 +4,7 @@ import com.o0u0o.ipay.config.AliPayConfig;
 import com.o0u0o.ipay.config.ChinaUmsConfig;
 import com.o0u0o.ipay.config.SignType;
 import com.o0u0o.ipay.config.WxPayConfig;
-import com.o0u0o.ipay.enums.BestPayPlatformEnum;
+import com.o0u0o.ipay.common.enums.BestPayPlatformEnum;
 import com.o0u0o.ipay.model.*;
 import com.o0u0o.ipay.service.BestPayService;
 import com.o0u0o.ipay.service.impl.alipay.AliPayServiceImpl;

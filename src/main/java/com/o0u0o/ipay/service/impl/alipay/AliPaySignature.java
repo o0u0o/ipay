@@ -1,7 +1,7 @@
 package com.o0u0o.ipay.service.impl.alipay;
 
 import com.o0u0o.ipay.constants.AliPayConstants;
-import com.o0u0o.ipay.utils.StreamUtil;
+import com.o0u0o.ipay.common.utils.StreamUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.lang3.StringUtils;

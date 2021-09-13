@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016, 59store. All rights reserved.
  */
-package com.o0u0o.ipay.utils;
+package com.o0u0o.ipay.common.utils;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;

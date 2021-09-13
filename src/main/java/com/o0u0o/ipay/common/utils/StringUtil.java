@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.utils;
+package com.o0u0o.ipay.common.utils;
 
 /**
  * Created by this on 2019/9/9 20:35

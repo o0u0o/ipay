@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2015, 59store. All rights reserved.
  */
-package com.o0u0o.ipay.utils;
+package com.o0u0o.ipay.common.utils;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;

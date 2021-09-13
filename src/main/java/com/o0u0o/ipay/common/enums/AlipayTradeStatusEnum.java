@@ -1,8 +1,8 @@
-package com.o0u0o.ipay.enums;
+package com.o0u0o.ipay.common.enums;
 
 import lombok.Getter;
 
-import static com.o0u0o.ipay.enums.OrderStatusEnum.*;
+import static com.o0u0o.ipay.common.enums.OrderStatusEnum.*;
 
 /**
  * 支付宝交易状态枚举.
