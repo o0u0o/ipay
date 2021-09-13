@@ -4,7 +4,7 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.GsonBuilder;
 import com.o0u0o.ipay.config.AliPayConfig;
 import com.o0u0o.ipay.config.SignType;
-import com.o0u0o.ipay.constants.AliPayConstants;
+import com.o0u0o.ipay.common.constants.AliPayConstants;
 import com.o0u0o.ipay.common.enums.AlipayTradeStatusEnum;
 import com.o0u0o.ipay.common.enums.BestPayPlatformEnum;
 import com.o0u0o.ipay.common.enums.BestPayTypeEnum;

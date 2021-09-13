@@ -2,7 +2,7 @@ package com.o0u0o.ipay.service.impl;
 
 import com.o0u0o.ipay.config.SignType;
 import com.o0u0o.ipay.config.WxPayConfig;
-import com.o0u0o.ipay.constants.WxPayConstants;
+import com.o0u0o.ipay.common.constants.WxPayConstants;
 import com.o0u0o.ipay.common.enums.BestPayPlatformEnum;
 import com.o0u0o.ipay.common.enums.BestPayTypeEnum;
 import com.o0u0o.ipay.common.enums.OrderStatusEnum;

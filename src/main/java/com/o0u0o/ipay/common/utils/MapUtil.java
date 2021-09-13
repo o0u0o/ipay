@@ -99,8 +99,8 @@ public class MapUtil {
         for (int i = 0; i < keys.size(); i++) {
             String key = keys.get(i);
             String value = map.get(key);
-
-            if (i == keys.size() - 1) {//拼接时，不包括最后一个&字符
+            //拼接时，不包括最后一个&字符
+            if (i == keys.size() - 1) {
                 prestr = prestr + key + "=" + value;
             } else {
                 prestr = prestr + key + "=" + value + "&";
@@ -179,7 +179,8 @@ public class MapUtil {
             if (value == null) {
                 break;
             }
-            if (i == keys.size() - 1) {//拼接时，不包括最后一个&字符
+            //拼接时，不包括最后一个&字符
+            if (i == keys.size() - 1) {
                 prestr = prestr + key + "=" + URLEncoder.encode(value);
             } else {
                 prestr = prestr + key + "=" + URLEncoder.encode(value) + "&";

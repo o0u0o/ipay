@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.service.impl.alipay;
 
-import com.o0u0o.ipay.constants.AliPayConstants;
+import com.o0u0o.ipay.common.constants.AliPayConstants;
 import com.o0u0o.ipay.model.PayRequest;
 import com.o0u0o.ipay.model.PayResponse;
 import com.o0u0o.ipay.model.alipay.request.AliPayTradeCreateRequest;

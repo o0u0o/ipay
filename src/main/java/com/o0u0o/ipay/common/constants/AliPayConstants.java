@@ -12,13 +12,13 @@ package com.o0u0o.ipay.common.constants;
 public interface AliPayConstants {
 
     /** 请求处理成功. */
-    String SUCCESS            = "success";
+    String SUCCESS = "success";
 
     /** 请求处理失败. */
-    String FAIL               = "fail";
+    String FAIL = "fail";
 
     /** 支付宝网关. 开放平台 见https://b.alipay.com/order/pidAndKey.htm */
-    String ALIPAY_GATEWAY_OPEN     = "https://openapi.alipay.com/";
+    String ALIPAY_GATEWAY_OPEN = "https://openapi.alipay.com/";
 
     /** 支付宝返回码 - 成功. */
     String RESPONSE_CODE_SUCCESS = "10000";
@@ -29,21 +29,21 @@ public interface AliPayConstants {
     /**
      * 沙箱测试
      */
-    String ALIPAY_GATEWAY_OPEN_DEV     = "https://openapi.alipaydev.com/";
+    String ALIPAY_GATEWAY_OPEN_DEV = "https://openapi.alipaydev.com/";
 
     /**
      * RSA签名类型
      */
-    String SIGN_TYPE_RSA                  = "RSA";
+    String SIGN_TYPE_RSA = "RSA";
 
     /**
      * sha256WithRsa 算法请求类型
      */
-    String SIGN_TYPE_RSA2                 = "RSA2";
+    String SIGN_TYPE_RSA2 = "RSA2";
 
-    String SIGN_ALGORITHMS                = "SHA1WithRSA";
+    String SIGN_ALGORITHMS = "SHA1WithRSA";
 
-    String SIGN_SHA256RSA_ALGORITHMS      = "SHA256WithRSA";
+    String SIGN_SHA256RSA_ALGORITHMS = "SHA256WithRSA";
 
     /** UTF-8字符集 **/
     String CHARSET_UTF8                   = "UTF-8";

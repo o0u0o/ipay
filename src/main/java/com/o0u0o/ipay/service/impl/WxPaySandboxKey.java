@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.service.impl;
 
-import com.o0u0o.ipay.constants.WxPayConstants;
+import com.o0u0o.ipay.common.constants.WxPayConstants;
 import com.o0u0o.ipay.model.wxpay.WxPayApi;
 import com.o0u0o.ipay.model.wxpay.response.WxPaySandboxKeyResponse;
 import com.o0u0o.ipay.common.utils.JsonUtil;
@@ -23,6 +23,7 @@ import java.util.Map;
 
 /**
  * Created by lly835@163.com
+ * 微信支付沙盒模式秘钥
  * 2018-05-16 20:35
  */
 @Slf4j

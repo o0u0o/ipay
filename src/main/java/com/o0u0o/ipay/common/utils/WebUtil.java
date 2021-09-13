@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.common.utils;
 
-import com.o0u0o.ipay.constants.AliPayConstants;
+import com.o0u0o.ipay.common.constants.AliPayConstants;
 
 import java.io.IOException;
 import java.net.URLEncoder;
@@ -85,10 +85,13 @@ public class WebUtil {
 
     public static String getRequestUrl(Map<String,String> parameters,Boolean isSandbox)  {
         StringBuffer urlSb;
-        if(isSandbox)
+        if(isSandbox) {
             urlSb = new StringBuffer(AliPayConstants.ALIPAY_GATEWAY_OPEN_DEV);
-        else
+        }
+
+        else {
             urlSb = new StringBuffer(AliPayConstants.ALIPAY_GATEWAY_OPEN);
+        }
 
         urlSb.append("/gateway.do");
         try {

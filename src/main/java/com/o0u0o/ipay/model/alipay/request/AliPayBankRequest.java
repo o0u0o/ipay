@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.model.alipay.request;
 
-import com.o0u0o.ipay.constants.AliPayConstants;
+import com.o0u0o.ipay.common.constants.AliPayConstants;
 import lombok.Data;
 
 /**
