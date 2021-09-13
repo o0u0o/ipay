@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.constants;
+package com.o0u0o.ipay.common.constants;
 
 /**
  * 微信常量

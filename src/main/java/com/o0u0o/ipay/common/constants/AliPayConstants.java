@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2015, 59store. All rights reserved.
  */
-package com.o0u0o.ipay.constants;
+package com.o0u0o.ipay.common.constants;
 
 /**
  * 支付宝常量.
