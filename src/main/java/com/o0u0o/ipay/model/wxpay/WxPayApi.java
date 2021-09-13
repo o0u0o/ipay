@@ -11,7 +11,7 @@ import retrofit2.http.Body;
 import retrofit2.http.POST;
 
 /**
- * Created by 廖师兄
+ * 微信支付API
  * 2017-07-02 13:36
  */
 public interface WxPayApi {

@@ -4,7 +4,7 @@
 package com.o0u0o.ipay.common.constants;
 
 /**
- * 支付宝常量.
+ * 支付宝支付常量.
  * 
  * @version 1.0 2015年12月24日
  * @since 1.0
@@ -46,7 +46,7 @@ public interface AliPayConstants {
     String SIGN_SHA256RSA_ALGORITHMS = "SHA256WithRSA";
 
     /** UTF-8字符集 **/
-    String CHARSET_UTF8                   = "UTF-8";
+    String CHARSET_UTF8 = "UTF-8";
 
     /**
      * 接口名称   method参数
