@@ -23,6 +23,7 @@
         <url>https://github.com/o0u0o/ipay</url>
         <connection>git@github.com:/o0u0o/ipay.git</connection>
         <developerConnection>https://github.com/o0u0o/ipay</developerConnection>
+        <tag>master</tag>
     </scm>
 
     <developers>
