@@ -4,11 +4,11 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.o0u0o</groupId>
-    <artifactId>ipay-sdk</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>ipay</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>ipay-sdk</name>
-    <description>支付sdk</description>
+    <description>支持微信、支付宝的支付sdk</description>
     <url>https://github.com/o0u0o/ipay</url>
 
     <licenses>
@@ -36,12 +36,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>oss-snapshots</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>releases</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>oss-releases</id>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
 

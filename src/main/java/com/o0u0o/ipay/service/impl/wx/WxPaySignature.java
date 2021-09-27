@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.service.impl;
+package com.o0u0o.ipay.service.impl.wx;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;

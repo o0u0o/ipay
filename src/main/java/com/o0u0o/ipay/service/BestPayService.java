@@ -12,8 +12,11 @@ import java.util.Map;
  */
 public interface BestPayService {
 
+
     /**
      * 发起支付.
+     * @param request
+     * @return
      */
     PayResponse pay(PayRequest request);
 

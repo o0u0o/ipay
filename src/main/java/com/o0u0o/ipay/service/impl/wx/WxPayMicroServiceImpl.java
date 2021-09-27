@@ -7,8 +7,6 @@ import com.o0u0o.ipay.model.PayResponse;
 import com.o0u0o.ipay.model.wxpay.WxPayApi;
 import com.o0u0o.ipay.model.wxpay.request.WxPayUnifiedorderRequest;
 import com.o0u0o.ipay.model.wxpay.response.WxPaySyncResponse;
-import com.o0u0o.ipay.service.impl.WxPayServiceImpl;
-import com.o0u0o.ipay.service.impl.WxPaySignature;
 import com.o0u0o.ipay.common.utils.MapUtil;
 import com.o0u0o.ipay.common.utils.MoneyUtil;
 import com.o0u0o.ipay.common.utils.RandomUtil;

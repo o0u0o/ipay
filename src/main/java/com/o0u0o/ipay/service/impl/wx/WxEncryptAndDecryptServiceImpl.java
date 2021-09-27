@@ -1,5 +1,6 @@
-package com.o0u0o.ipay.service.impl;
+package com.o0u0o.ipay.service.impl.wx;
 
+import com.o0u0o.ipay.service.impl.AbstractEncryptAndDecryptServiceImpl;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
@@ -14,14 +15,16 @@ import java.security.Security;
 import java.util.Base64;
 
 /**
- * Created by 廖师兄
- * 2018-05-30 16:26
+ * 微信加密解密业务实现类
+ * @author o0u0o
+ * @date 2018-05-30 4:18 下午
  */
 public class WxEncryptAndDecryptServiceImpl extends AbstractEncryptAndDecryptServiceImpl {
     /**
      * 密钥算法
      */
     private static final String ALGORITHM = "AES";
+
     /**
      * 加解密算法/工作模式/填充方式
      */
@@ -30,8 +33,8 @@ public class WxEncryptAndDecryptServiceImpl extends AbstractEncryptAndDecryptSer
     /**
      * 微信加密
      *
-     * @param key
-     * @param data
+     * @param key 秘钥
+     * @param data 数据
      * @return
      */
     @Override

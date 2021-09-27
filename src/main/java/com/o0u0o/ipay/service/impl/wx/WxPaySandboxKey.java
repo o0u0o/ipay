@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.service.impl;
+package com.o0u0o.ipay.service.impl.wx;
 
 import com.o0u0o.ipay.common.constants.WxPayConstants;
 import com.o0u0o.ipay.model.wxpay.WxPayApi;

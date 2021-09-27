@@ -9,6 +9,7 @@ import com.o0u0o.ipay.model.*;
 import com.o0u0o.ipay.service.BestPayService;
 import com.o0u0o.ipay.service.impl.alipay.AliPayServiceImpl;
 import com.o0u0o.ipay.service.impl.chinaums.ChinaUmsServiceImpl;
+import com.o0u0o.ipay.service.impl.wx.WxPayServiceImpl;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;

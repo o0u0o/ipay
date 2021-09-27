@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.service.impl;
+package com.o0u0o.ipay.service.impl.wx;
 
 import com.o0u0o.ipay.config.SignType;
 import com.o0u0o.ipay.config.WxPayConfig;
@@ -7,7 +7,7 @@ import com.o0u0o.ipay.common.enums.BestPayPlatformEnum;
 import com.o0u0o.ipay.common.enums.BestPayTypeEnum;
 import com.o0u0o.ipay.common.enums.OrderStatusEnum;
 import com.o0u0o.ipay.model.wxpay.WxPayApi;
-import com.o0u0o.ipay.service.impl.wx.WxPayMicroServiceImpl;
+import com.o0u0o.ipay.service.impl.BestPayServiceImpl;
 import com.o0u0o.ipay.common.utils.MapUtil;
 import com.o0u0o.ipay.common.utils.MoneyUtil;
 import com.o0u0o.ipay.common.utils.RandomUtil;
