@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class DownloadBillRequest {
 
-    //对账日期
+    /** 对账日期 */
     private String billDate;
 
 }
