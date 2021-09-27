@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.model;
 
-import com.o0u0o.ipay.common.enums.BestPayPlatformEnum;
+import com.o0u0o.ipay.common.enumeration.enums.BestPayPlatformEnum;
 import lombok.Data;
 
 /**

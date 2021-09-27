@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.exception;
 
-import com.o0u0o.ipay.common.enums.BestPayResultEnum;
+import com.o0u0o.ipay.common.enumeration.enums.BestPayResultEnum;
 
 
 /**

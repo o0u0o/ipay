@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.common.enums;
+package com.o0u0o.ipay.common.enumeration.enums;
 
 /**
  * Created by null on 2017/2/23.

@@ -1,6 +1,6 @@
 package com.o0u0o.ipay.service;
 
-import com.o0u0o.ipay.config.SignType;
+import com.o0u0o.ipay.common.enumeration.type.SignType;
 import com.o0u0o.ipay.model.*;
 
 import javax.servlet.http.HttpServletRequest;

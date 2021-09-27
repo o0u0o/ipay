@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.config;
+package com.o0u0o.ipay.common.enumeration.type;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.common.enums;
+package com.o0u0o.ipay.common.enumeration.enums;
 
 /**
  * 支付平台

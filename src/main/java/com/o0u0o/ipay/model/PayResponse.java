@@ -1,7 +1,7 @@
 package com.o0u0o.ipay.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.o0u0o.ipay.common.enums.BestPayPlatformEnum;
+import com.o0u0o.ipay.common.enumeration.enums.BestPayPlatformEnum;
 import lombok.Data;
 
 import java.net.URI;
