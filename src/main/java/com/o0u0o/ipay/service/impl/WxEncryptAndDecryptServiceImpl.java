@@ -1,4 +1,4 @@
-package com.o0u0o.ipay.service.impl.wx;
+package com.o0u0o.ipay.service.impl;
 
 import com.o0u0o.ipay.service.impl.AbstractEncryptAndDecryptServiceImpl;
 import org.apache.commons.codec.digest.DigestUtils;
