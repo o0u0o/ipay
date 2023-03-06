@@ -7,7 +7,7 @@ import com.o0u0o.ipay.common.enumeration.enums.BestPayPlatformEnum;
 import com.o0u0o.ipay.common.enumeration.enums.BestPayTypeEnum;
 import com.o0u0o.ipay.common.enumeration.enums.OrderStatusEnum;
 import com.o0u0o.ipay.model.wxpay.WxPayApi;
-import com.o0u0o.ipay.service.impl.BestPayServiceImpl;
+import com.o0u0o.ipay.service.impl.IPayServiceImpl;
 import com.o0u0o.ipay.common.utils.MapUtil;
 import com.o0u0o.ipay.common.utils.MoneyUtil;
 import com.o0u0o.ipay.common.utils.RandomUtil;
@@ -37,7 +37,7 @@ import java.util.Map;
  * 2017-07-02 13:40
  */
 @Slf4j
-public class WxPayServiceImpl extends BestPayServiceImpl {
+public class WxPayServiceImpl extends IPayServiceImpl {
 
     protected WxPayConfig wxPayConfig;
 

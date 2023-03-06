@@ -10,7 +10,7 @@ import java.util.Map;
  * <h1>支付相关接口</h1>
  * Created by null on 2017/2/14.
  */
-public interface BestPayService {
+public interface IPayService {
 
 
     /**

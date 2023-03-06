@@ -11,7 +11,7 @@ import com.o0u0o.ipay.common.enumeration.enums.BestPayTypeEnum;
 import com.o0u0o.ipay.model.alipay.AliPayApi;
 import com.o0u0o.ipay.model.alipay.request.*;
 import com.o0u0o.ipay.model.alipay.response.*;
-import com.o0u0o.ipay.service.impl.BestPayServiceImpl;
+import com.o0u0o.ipay.service.impl.IPayServiceImpl;
 import com.o0u0o.ipay.common.utils.JsonUtil;
 import com.o0u0o.ipay.common.utils.MapUtil;
 import com.o0u0o.ipay.common.utils.WebUtil;
@@ -37,7 +37,7 @@ import java.util.Map;
  * Created by this on 2019/9/8 15:50
  */
 @Slf4j
-public class AliPayServiceImpl extends BestPayServiceImpl {
+public class AliPayServiceImpl extends IPayServiceImpl {
 
     protected final static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     protected AliPayConfig aliPayConfig;

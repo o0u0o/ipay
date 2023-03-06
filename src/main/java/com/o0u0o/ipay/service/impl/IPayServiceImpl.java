@@ -6,7 +6,7 @@ import com.o0u0o.ipay.common.enumeration.type.SignType;
 import com.o0u0o.ipay.config.WxPayConfig;
 import com.o0u0o.ipay.common.enumeration.enums.BestPayPlatformEnum;
 import com.o0u0o.ipay.model.*;
-import com.o0u0o.ipay.service.BestPayService;
+import com.o0u0o.ipay.service.IPayService;
 import com.o0u0o.ipay.service.impl.alipay.AliPayServiceImpl;
 import com.o0u0o.ipay.service.impl.chinaums.ChinaUmsServiceImpl;
 import com.o0u0o.ipay.service.impl.wx.WxPayServiceImpl;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 import java.util.Objects;
 
-public class BestPayServiceImpl implements BestPayService {
+public class IPayServiceImpl implements IPayService {
 
     /**
      * 支付平台配置
