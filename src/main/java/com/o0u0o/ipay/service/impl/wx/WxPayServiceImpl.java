@@ -83,9 +83,14 @@ public class WxPayServiceImpl extends BestPayServiceImpl {
         //小程序和app支付有独立的appid，公众号、h5、native都是公众号的appid
         if (request.getPayTypeEnum() == BestPayTypeEnum.WXPAY_MINI) {
             wxRequest.setAppid(wxPayConfig.getMiniAppId());
-        } else if (request.getPayTypeEnum() == BestPayTypeEnum.WXPAY_APP) {
+        }
+
+        //微信APP支付
+        else if (request.getPayTypeEnum() == BestPayTypeEnum.WXPAY_APP) {
             wxRequest.setAppid(wxPayConfig.getAppAppId());
-        } else {
+        }
+
+        else {
             wxRequest.setAppid(wxPayConfig.getAppId());
         }
         wxRequest.setMchId(wxPayConfig.getMchId());
