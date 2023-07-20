@@ -4,17 +4,20 @@ import com.o0u0o.ipay.common.constants.AliPayConstants;
 import lombok.Data;
 
 /**
+ * <p>支付宝订单关闭请求参数</p>
+ * 支付宝接口描述:alipay.trade.close(统一收单交易关闭接口)
  * Created by 廖师兄
- * https://docs.open.alipay.com/api_1/alipay.trade.close
+ * 参考文档：https://docs.open.alipay.com/api_1/alipay.trade.close
  */
 @Data
 public class AliPayOrderCloseRequest {
 	/**
-	 * app_id
+	 * app_id [必选] 支付宝分配给开发者的应用ID
 	 */
 	private String appId;
+
 	/**
-	 * 接口名称
+	 * [必选]接口名称
 	 */
 	private String method = "alipay.trade.close";
 

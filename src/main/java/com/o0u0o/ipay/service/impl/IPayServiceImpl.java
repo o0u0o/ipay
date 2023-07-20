@@ -157,6 +157,7 @@ public class IPayServiceImpl implements IPayService {
 
     @Override
     public CloseResponse close(CloseRequest request) {
+        //支付宝支付关闭订单
         if (request.getPayTypeEnum().getPlatform() == BestPayPlatformEnum.ALIPAY) {
             AliPayServiceImpl aliPayService = new AliPayServiceImpl();
             aliPayService.setAliPayConfig(this.aliPayConfig);
