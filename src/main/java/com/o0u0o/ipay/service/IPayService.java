@@ -15,8 +15,8 @@ public interface IPayService {
 
     /**
      * <h2>发起支付.</h2>
-     * @param request
-     * @return
+     * @param request 包含支付所需全部信息的请求对象。
+     * @return PayResponse 包含支付结果的响应对象。
      */
     PayResponse pay(PayRequest request);
 

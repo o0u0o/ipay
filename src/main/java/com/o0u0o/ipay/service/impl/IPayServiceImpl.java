@@ -42,6 +42,12 @@ public class IPayServiceImpl implements IPayService {
         this.chinaUmsConfig = chinaUmsConfig;
     }
 
+    /**
+     * <h1>处理支付请求，根据不同的支付平台调用相应的支付服务实现类完成支付。</h1>
+     * @param request 包含支付必要信息的请求对象，不可为null。
+     * @return 返回支付响应对象，包含支付结果等信息。
+     * @throws RuntimeException 当传入的支付方式不被支持时抛出异常。
+     */
     @Override
     public PayResponse pay(PayRequest request) {
         Objects.requireNonNull(request, "request params must not be null");
@@ -51,6 +57,7 @@ public class IPayServiceImpl implements IPayService {
             wxPayService.setWxPayConfig(this.wxPayConfig);
             return wxPayService.pay(request);
         }
+
         // 支付宝支付
         else if (BestPayPlatformEnum.ALIPAY == request.getPayTypeEnum().getPlatform()) {
             AliPayServiceImpl aliPayService = new AliPayServiceImpl();
@@ -64,8 +71,9 @@ public class IPayServiceImpl implements IPayService {
             chinaUmsService.setChinaUmsConfig(chinaUmsConfig);
             return chinaUmsService.pay(request);
         }
-        throw new RuntimeException("错误的支付方式");
 
+        // 当传入的支付平台不被支持时抛出异常
+        throw new RuntimeException("错误的支付方式");
     }
 
     /**

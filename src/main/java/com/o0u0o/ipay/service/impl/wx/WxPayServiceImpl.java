@@ -66,14 +66,22 @@ public class WxPayServiceImpl extends IPayServiceImpl {
         this.wxPayConfig = wxPayConfig;
     }
 
+    /**
+     * <h2>微信处理支付请求，并返回支付响应。</h2>
+     * @param request 包含支付所需信息的请求对象。
+     * @return PayResponse 包含支付结果的响应对象。
+     */
     @Override
     public PayResponse pay(PayRequest request) {
+        // 如果是微信小程序支付，则使用微信小程序支付服务处理支付请求
         if (request.getPayTypeEnum() == BestPayTypeEnum.WXPAY_MICRO) {
             WxPayMicroServiceImpl wxPayMicroService = new WxPayMicroServiceImpl();
             wxPayMicroService.setWxPayConfig(wxPayConfig);
             return wxPayMicroService.pay(request);
         }
+
         WxPayUnifiedorderRequest wxRequest = new WxPayUnifiedorderRequest();
+        // 设置订单基本信息
         wxRequest.setOutTradeNo(request.getOrderId());
         wxRequest.setTotalFee(MoneyUtil.Yuan2Fen(request.getOrderAmount()));
         wxRequest.setBody(request.getOrderName());
@@ -82,6 +90,7 @@ public class WxPayServiceImpl extends IPayServiceImpl {
 
         //小程序和app支付有独立的appid，公众号、h5、native都是公众号的appid
         if (request.getPayTypeEnum() == BestPayTypeEnum.WXPAY_MINI) {
+            // 微信小程序支付
             wxRequest.setAppid(wxPayConfig.getMiniAppId());
         }
 
@@ -89,10 +98,12 @@ public class WxPayServiceImpl extends IPayServiceImpl {
         else if (request.getPayTypeEnum() == BestPayTypeEnum.WXPAY_APP) {
             wxRequest.setAppid(wxPayConfig.getAppAppId());
         }
-
+        //公众号、H5、Native支付
         else {
             wxRequest.setAppid(wxPayConfig.getAppId());
         }
+
+        // 设置商户号、通知地址、随机字符串、IP和附加数据
         wxRequest.setMchId(wxPayConfig.getMchId());
         wxRequest.setNotifyUrl(wxPayConfig.getNotifyUrl());
         wxRequest.setNonceStr(RandomUtil.getRandomStr());
@@ -132,6 +143,7 @@ public class WxPayServiceImpl extends IPayServiceImpl {
             throw new RuntimeException("【微信统一支付】发起支付, resultCode != SUCCESS, err_code = " + response.getErrCode() + " err_code_des=" + response.getErrCodeDes());
         }
 
+        // 构建并返回支付响应
         return buildPayResponse(response);
     }
 

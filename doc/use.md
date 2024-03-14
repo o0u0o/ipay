@@ -3,7 +3,7 @@
 ## 文字教程
 1. 配置
 
-    ```
+    ```bash
     //微信支付配置
     WxPayConfig wxPayConfig = new WxPayConfig();
     wxPayConfig.setAppId("xxxxx");          //公众号Id
